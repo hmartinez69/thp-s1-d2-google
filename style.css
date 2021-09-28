@@ -1,0 +1,49 @@
+body {
+  padding: 15px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 6px;
+}
+
+nav a {
+  padding-left: 15px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo {
+  width: 272px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 582px;
+}
+
+#footer1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#footer2 nav {
+  display: flex;
+}
+
+.left, .right, .center {
+  flex: 1;
+}
